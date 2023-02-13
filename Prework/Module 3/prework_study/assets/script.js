@@ -25,12 +25,25 @@ console.log(shapes[3]);
 */
 
 //loop
-var topics_array = ['HTML', 'CSS', 'Git', 'JavaScript'];
+function list_topict(topic){
+   
+    for(var x=0;x<topic.length;x++){
+        console.log(topic[x]);
+    }
+}
 
-for(var x=0;x<topics_array.length;x++){
-    
-    console.log("Let's study " + topics_array[x]);
+
+function select_topic(topic){
+    var randomTopic = topic[Math.floor(Math.random() * topic.length)];
+    console.log("Let's study "+randomTopic);    
 }
 
 
 
+var topics_array = ['HTML', 'CSS', 'Git', 'JavaScript'];
+
+console.log('Here are the topics we learned through Prework:');
+list_topict(topics_array);
+
+console.log('\nWhich topic should we study first?');
+select_topic(topics_array);
