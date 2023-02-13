@@ -1,0 +1,8 @@
+git add -A <command to commit all files in the working branch>
+git commit -m "msg" <flag to associate a message with our commit>
+git pull origin main <pull the base branch>
+git push origin feature/add-html <push up all of our changes>
+git status <check the status of the branch>
+
+git checkout main <update local repository>
+git pull origin main <pull the base branch>
