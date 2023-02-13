@@ -6,3 +6,7 @@ git status <check the status of the branch>
 
 git checkout main <update local repository>
 git pull origin main <pull the base branch>
+
+git checkout -b newbranch 
+    <from checkout branch create new branch named...>
+
